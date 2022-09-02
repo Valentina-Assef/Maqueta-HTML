@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica HTML</title>
+</head>
+<body>
+    <h1>Etiqueta H1</h1>
+    <h2>Etiqueta H2</h2>
+    <h3>Etiqueta H3</h3>
+    <h4>Etiqueta H4</h4>
+    <h5>Etiqueta H5</h5>
+    <h6>Etiqueta H6</h6>
+    <p>Un parrafo</p>
+    <b>Negrita</b>
+    <br>
+    <br>
+    <strong>Negrita</strong>
+    <hr>
+    <!-- Este es un comentario -->
+    <div>
+        <a href="http://https://github.com/Valentina-Assef/myportfolio-FrontEnd.git" target="_blank">Esto es un enlace. CLICK</a>
+        <br/>
+        <br/>
+        <img src="https://images.pexels.com/photos/13265635/pexels-photo-13265635.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+        <br/>
+        <br/>
+        <audio src="https://Multimedia/The_Return.mp3"></audio>
+        <br/>
+        <audio controls>
+            <source src="D:\Programacion\Curso Carlos Arturo\HTML - Practica\Multimedia\The_Return.mp3" type="audio/mpeg">
+        </audio>
+        <br/>
+        <br/>
+        <iframe <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13087.055476520032!2d-57.927651749999995!3d-34.91237485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e5e32b344bbb%3A0x650b1322c5b780d1!2sEl%20Rinconcito%20Chalaco%20cevicher%C3%ADa!5e0!3m2!1ses-419!2sar!4v1662080342747!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br/><br/>
+        <div class="contact_form">
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                  <form action="submeter-formulario.php" method="post">       
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>   
+
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p> 
+
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>Los campos son obligatorios.
+                        </p>          
+                    </form>
+            </div>
+</body>
+</html>
