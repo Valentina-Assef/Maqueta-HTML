@@ -1,6 +1,6 @@
 *{
-    width: 90%;
-    margin: auto;
+    width: 95%;
+    margin: 2% 2% 2% 2%;
     padding: 0.25%;
 }
 
@@ -11,3 +11,8 @@
 .fondo{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQErjFosXNWiK1Khn9ouk223mnMTaHDPhyiaQ&usqp=CAU);
 }
+
+.card {
+    width: 18rem;
+}
+
