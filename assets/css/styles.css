@@ -1,0 +1,13 @@
+*{
+    width: 90%;
+    margin: auto;
+    padding: 0.25%;
+}
+
+.titulo{
+    color:rgb(74, 165, 120);
+}
+
+.fondo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQErjFosXNWiK1Khn9ouk223mnMTaHDPhyiaQ&usqp=CAU);
+}
