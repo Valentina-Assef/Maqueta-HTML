@@ -1,4 +1,5 @@
 # myportfolio-FrontEnd
+
 # OJO ESTO ES CSS PARA EL FORMULARIO
 body{
   height: 100%; 
@@ -127,3 +128,24 @@ p{
   outline:0;
   border: 1px solid #97d848;
 }
+
+# Esto es Html de prueba
+    <b>Negrita</b>
+    <br /><br />
+    <strong>Negrita</strong>
+    <hr>
+    
+    <!--Dentro del div pongo la clase titulo-->
+    <div class="titulo">
+        <a href="http://https://github.com/Valentina-Assef/myportfolio-FrontEnd.git" target="_blank">Esto es un enlace. CLICK</a>
+        <br/><br/>
+        <img src="https://images.pexels.com/photos/13265635/pexels-photo-13265635.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+        <br/><br/>
+        <h3>Lo que sigue es un audio</h3>
+      <!-- Fijarse que esta mal del audio-->
+        <audio controls>
+            <source src="D:\Programacion\#YoPogramo\PORTFOLIO\Multimedia" type="audio/mpeg">
+        </audio>
+        <br/><br/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13087.055476520032!2d-57.927651749999995!3d-34.91237485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e5e32b344bbb%3A0x650b1322c5b780d1!2sEl%20Rinconcito%20Chalaco%20cevicher%C3%ADa!5e0!3m2!1ses-419!2sar!4v1662080342747!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
