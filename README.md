@@ -1,16 +1,10 @@
 #Front End
+# Esto puede ser el fondo del body
+body {
+  background-image: url(https://www.cientificascasio.com/assets/img/cientificas/ada_lovelace/head-ada-min.png);
+}
 
-
-
-
-
-
-
-
-
-
-
-# OJO ESTO ES CSS PARA EL FORMULARIO
+# Esto es Css para el formulario
 body{
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;

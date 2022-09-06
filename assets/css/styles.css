@@ -1,9 +1,18 @@
 body {
-  background-image: url(https://www.cientificascasio.com/assets/img/cientificas/ada_lovelace/head-ada-min.png);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPt-4fgKCUlGNeaJDOXn_SHeutweKSZHQAg&usqp=CAU);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img_banner {
+  display: block;
+  margin: auto;
+  background-size: 25%;
 }
 
 .titulo{
-    color:#6b116e;
+    color:#e14658;
 }
 
 .card {
@@ -28,7 +37,7 @@ li.list-group-item:hover{
     padding-bottom: 20px;  
     background-color: #fbfbfb; 
     padding-left: 30px; 
-    border-color: #6b116e;
+    border-color: #e14658;
   }
   
   
@@ -39,7 +48,7 @@ li.list-group-item:hover{
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color: #6b116e; 
+    border-color: #e14658; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
@@ -53,7 +62,7 @@ li.list-group-item:hover{
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color:#6b116e; 
+    border-color:#e14658; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
@@ -74,8 +83,8 @@ li.list-group-item:hover{
     margin-bottom: 20px; 
     margin-top: 10px;   
     text-transform: uppercase;
-    background-color: #6b116e; 
-    border-color: #6b116e; 
+    background-color: #e14658; 
+    border-color: #e14658; 
     border-style: solid; 
     border-radius: 10px;  
     width: 420px;   
@@ -89,7 +98,7 @@ li.list-group-item:hover{
   
   
   span{
-    color: #6b116e; 
+    color: #e14658; 
   }
   
   
@@ -99,24 +108,24 @@ li.list-group-item:hover{
   }
   
   ::-webkit-input-placeholder {
-   color: #6b116e;
+   color: #e14658;
   }
   
   
   ::-webkit-textarea-placeholder {
-   color: #6b116e;
+   color: #e14658;
   }
   
   
   .formulario input:focus{
     outline:0;
-    border: 1px solid #6b116e;
+    border: 1px solid #e14658;
   }
   
   
   .formulario textarea:focus{
     outline:0;
-    border: 1px solid #6b116e;
+    border: 1px solid #e14658
   }
   
 
