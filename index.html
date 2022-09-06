@@ -12,9 +12,9 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-danger"> <!--Aca puse danger en vez de light-->
-    <div class="container-fluid">
+    <div class="container-fluid"> 
       <a class="navbar-brand" href="#">
-        <img src="assets/img/APLogo-20-20.png" alt="" width="15%" height="">
+        <img src="assets/img/APLogo-20-20.png" alt="" width="10%" height="">
       </a>
       <ul class="list-group list-group-horizontal">
         <li class="list-group-item">
@@ -62,97 +62,161 @@
       </div>
     </div>
   </nav>
-  <div class="fondo">
-    <h1 class="titulo">Valentina Assef</h1>
-    <h4>Full Stack Developer Junior</h4>
-  </div>
-  <div class="fondo">
-    <!--Repito la class titulo-->
-    <h2 class="titulo">Acerca de mi</h2>
-    <p>Mi nombre es Valentina, tengo 33 años y vivo en la ciudad de La Plata, Argentina. Soy Desarrolladora desde el 2021. Me apasiona la música, la fotografía y la astronomía"</p>
-  </div>
-  <div class="fondo">
-    <h2 class="titulo">Proyectos</h2>
-    <div class="d-flex justify-content-arround">
-      <div class="card">
-        <img src="assets/img/Alma de Gaucho.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Alma de Gaucho</h5>
-          <p class="card-text">Empresa de venta de productos argentinos en Europa</p>
-          <a href="#" class="btn btn-primary">Visita la página</a>
+  <br/>
+    <div class="container text-arround">
+      <div class="row">
+        <div class="col-sm-2" text-center>
+           <!--Cambiar imagen-->
+          <img src="assets/img/Foto_perfil.jpg" class="card-img-top" alt="...">
+          <h4 class="titulo">Valentina Assef</h4>
+          <h6>Full Stack Developer Junior</h6>
+        </div>
+        <div class="col-sm-10">
+          <h2>Acerca de mi</h2>
+          <p>Mi nombre es Valentina, tengo 33 años y vivo en la ciudad de La Plata, Argentina.
+            <br/>Soy Desarrolladora desde el 2021. Me apasiona la música, la fotografía y la astronomía</p>
         </div>
       </div>
-
-      <div class="card">
-        <img src="assets/img/FLIA.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">FLIA La Plata</h5>
-          <p class="card-text">Feria del Libro Independiente y Autogestiva</p>
-          <a href="https://www.facebook.com/people/FLIA-La-Plata/100063952156377/" target="_blank" class="btn btn-primary">Visita la página</a>
+    </div>
+  <br/>
+  <div> <!--Falta completar-->
+    <h2 class="titulo">Experiencia Laboral</h2>
+    <br/>
+    <div class="container text-arround">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="assets/img/Alma de Gaucho.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="col-sm-10">
+          <h5>Colaboradora Pagina Web "Alma de Gaucho"</h5>
+          <h6>Junio 2021 - Septiembre 2021</h6>
+          <p>Colaboración en el diseño y desarrollo web.</p>
         </div>
       </div>
-
-      <div class="card">
-        <img src="assets/img/Portfolio.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Portfolio</h5>
-          <p class="card-text">Portfolio Full Stack Developer Junior</p>
-          <a href="http://https://github.com/Valentina-Assef/myportfolio-FrontEnd.git" target="_blank" class="btn btn-primary">Visita la página</a>
+    </div>
+    <br/>
+    <div class="container text-arround">
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <h6>Sentimiento Argentino</h6> <!--Cambiar imagen-->
+          <img src="assets/img/logo-SentimientoArgentino.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="col-sm-10">
+          <h5>Administrativa Contable</h5>
+          <h6>Mayo 2018 - Actualidad</h6>
+          <p>Facturación, cobranzas, etc.</p>
         </div>
       </div>
-
+    </div>
+    <br/>
+    <div class="container text-arround">
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <h6>Cinema La Plata</h6> <!--Cambiar imagen-->
+          <img src="assets/img/logo-CinemaLaPlata.png" class="card-img-top" alt="...">
+        </div>
+        <div class="col-sm-10">
+          <h5>Atención al Cliente / Vendedora</h5>
+          <h6>Junio 2011 - Febrero 2018</h6>
+          <p>Atencion al cliente, etc.</p>
+        </div>
+      </div>
     </div>
   </div>
-<br/><br/><br/>
-
-<!--Agregue fondo a la clase del div-->
-    <div class="contact_form fondo">
-      <div class="formulario"> 
-        <!--Aca invente una class titulo-->     
-        <h1 class="titulo">Formulario de contacto</h1>
-          <form action="submeter-formulario.php" method="post">       
-            <p>
-              <label for="nombre" class="colocar_nombre">Nombre
-                <span class="obligatorio">*</span>
-              </label>
-              <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-            </p>
-
-            <p>
-              <label for="email" class="colocar_email">Email
-                <span class="obligatorio">*</span>
-              </label>
-              <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-            </p>   
-
-            <p>
-              <label for="telefone" class="colocar_telefono">Teléfono
-              </label>
-                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-            </p>           
-
-            <p>
-              <label for="asunto" class="colocar_asunto">Asunto
-                <span class="obligatorio">*</span>
-              </label>
-                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-            </p>    
-          
-            <p>
-              <label for="mensaje" class="colocar_mensaje">Mensaje
-                <span class="obligatorio">*</span>
-              </label>                     
-                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-            </p>                    
-          
-            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-            <p class="aviso">
-              <span class="obligatorio"> * </span>Los campos son obligatorios.
-            </p>                    
-          </form>
+  <br/>
+  <div> <!--Falta completar-->
+    <h2 class="titulo">Educación</h2>
+  </div>
+  <br/>
+  <div> <!--Falta completar-->
+    <h2 class="titulo">Hard & Soft Skills</h2>
+  </div>
+  <br/>
+  <div> <!--Falta completar-->
+    <h2 class="titulo">Idiomas</h2>
+  </div>
+  <br/>
+  <h2 class="titulo">Proyectos</h2>
+  <br/>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/Alma de Gaucho.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Alma de Gaucho</h5>
+            <p class="card-text">Empresa de venta de productos argentinos en Europa</p>
+            <a href="#" class="btn btn-primary">Visita la página</a>
+          </div>
         </div>
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/FLIA.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FLIA La Plata</h5>
+            <p class="card-text">Feria del Libro Independiente y Autogestiva</p>
+            <a href="https://www.facebook.com/people/FLIA-La-Plata/100063952156377/" target="_blank" class="btn btn-primary">Visita la página</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="assets/img/Portfolio.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio</h5>
+            <p class="card-text">Portfolio Full Stack Developer Junior</p>
+            <a href="#" target="_blank" class="btn btn-primary">Visita la página</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/><br/>
+  <div class="contact_form">
+    <div class="formulario"> 
+      <!--Aca invente una class titulo-->     
+      <h1 class="titulo">Formulario de contacto</h1>
+        <form action="submeter-formulario.php" method="post">       
+          <p>
+            <label for="nombre" class="colocar_nombre">Nombre
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+          </p>
+          <p>
+            <label for="email" class="colocar_email">Email
+              <span class="obligatorio">*</span>
+            </label>
+            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+          </p>   
+          <p>
+            <label for="telefone" class="colocar_telefono">Teléfono
+            </label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+          </p>           
+          <p>
+            <label for="asunto" class="colocar_asunto">Asunto
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+          </p>    
+        
+          <p>
+            <label for="mensaje" class="colocar_mensaje">Mensaje
+              <span class="obligatorio">*</span>
+            </label>                     
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+          </p>                    
+        
+          <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+          <p class="aviso">
+            <span class="obligatorio"> * </span>Los campos son obligatorios.
+          </p>                    
+        </form>
+    </div>
+  </div>
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
