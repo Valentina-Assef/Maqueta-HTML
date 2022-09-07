@@ -1,3 +1,19 @@
+
+
+li.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+li.list-group-item:hover{
+  color: #fff;
+}
+
+.banner{
+  max-width: 100%;
+  margin-top: -10%;
+}
+
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPt-4fgKCUlGNeaJDOXn_SHeutweKSZHQAg&usqp=CAU);
   background-size:cover;
@@ -5,27 +21,8 @@ body {
   background-attachment: fixed;
 }
 
-.img_banner {
-  display: block;
-  margin: auto;
-  background-size: 25%;
-}
-
-.titulo{
-    color:#e14658;
-}
-
 .card {
     width: 18rem;
-}
-
-li.list-group-item {
-    background-color: transparent;
-    border: none;
-}
-
-li.list-group-item:hover{
-    color: #fff;
 }
 
 .contact_form{  
