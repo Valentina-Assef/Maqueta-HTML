@@ -1,4 +1,12 @@
+*{
+  margin: 5 5 5 5;
+  padding: 0;
+}
 
+/*Seccion Navbar*/
+.navbar{
+  background-color:rgb(243, 117, 117)
+}
 
 li.list-group-item {
   background-color: transparent;
@@ -9,22 +17,37 @@ li.list-group-item:hover{
   color: #fff;
 }
 
+/*Hasta aca esta chequeado*/
+/*Seccion Banner*/
 .banner{
-  max-width: 100%;
-  margin-top: -10%;
+  width: 100%;
+  height: 60vh;
+  color: #fff;
+  background: linear-gradient(45deg,rgba(27, 19, 131, 0.733),rgb(53, 167, 129),rgb(128, 17, 128));
+  background-size: 400% 400%;
+  position:relative; 
+  animation: gradiente 10s ease infinite;
 }
 
-body {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPt-4fgKCUlGNeaJDOXn_SHeutweKSZHQAg&usqp=CAU);
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.row-profile{
+  position:absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
 }
 
+@keyframes gradiente{
+  0%{background-position: 0 75%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0 75%;}
+}
+
+/*Seccion Proyectos*/
 .card {
     width: 18rem;
 }
 
+/*Seccion formulario*/
 .contact_form{  
     width: 460px; 
     height: auto;
@@ -95,7 +118,7 @@ body {
   
   
   span{
-    color: #e14658; 
+    color:#0e0e0e 
   }
   
   
