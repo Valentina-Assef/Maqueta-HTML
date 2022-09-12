@@ -10,7 +10,10 @@ Al agregarle a la lista list-group-horizontal lo iconos se ordenan de manera hor
 A cada item se le agrego la clase list-group-item por lo que en la hoja css se edito el color de fondo, el borde y el hover de cada logo.
 Se le agrego un boton de login con una ventana modal
 
-Banner
+Dia 2:
+Cambio de color del la navbar.
+Eleccion imagen banner
+Titulo centrado en el banner con formato extraido de Google font.
 
 
 
