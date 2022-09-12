@@ -13,20 +13,44 @@
   50%{background-position: 100% 50%;}
   100%{background-position: 0 75%;}
 }
+.arg-programa{
+  filter: invert(1);
+}
 
 li.list-group-item {
   background-color: transparent;
   border: none;
 }
 
-li.list-group-item:hover{
+.li.list-group-item:hover{
+  color: #fff;
+}
+
+.fa-brands.fa-linkedin.fa-xl{
+  color: #0e0e0e;
+}
+
+.fa-brands.fa-linkedin.fa-xl:hover{
+  color: #fff;
+}
+
+.fa-brands.fa-github.fa-xl{
+  color: #0e0e0e;
+}
+
+.fa-brands.fa-github.fa-xl:hover{
+  color: #fff;
+}
+
+.fa-solid.fa-user-lock.fa-xl:hover{
   color: #fff;
 }
 
 .btn-login{
-  background-color: rgb(250, 36, 82);
+  background-color: rgb(26, 78, 121);
+  color: #fff;
+  border: #fff;
 }
-/*Hasta aca esta chequeado*/
 
 /*Seccion Banner*/
 .img-banner{
@@ -39,14 +63,17 @@ li.list-group-item:hover{
 
 .titulo-banner{
   position:absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.banner-name{
+.nombre-banner{
   font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
 }
+
+/*Hasta aca esta chequeado*/
 
 /*Seccion Proyectos*/
 .card {

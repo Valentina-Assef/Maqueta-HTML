@@ -15,85 +15,80 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar"> <!--podria cambiar el color por la imagen de fondo-->
-      <div class="container-fluid"> 
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/APLogo-20-20.png" alt="" width="15%" height="">
-        </a>
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item">
+  <nav class="navbar">
+    <div class="container-fluid"> 
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/APLogo-20-20.png" alt="logo Argentina Programa" width="15%" class="arg-programa">
+      </a>
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a href="https://www.linkedin.com/in/valentina-assef-87a528245/" target="_blank" title="Linkedin">
             <i class="fa-brands fa-linkedin fa-xl"></i>
-          </li>
-          <li class="list-group-item">
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="https://github.com/Valentina-Assef" target="_blank" title="Github">
             <i class="fa-brands fa-github fa-xl"></i>
-          </li>
-          <li class="list-group-item">
-            <i class="fa-brands fa-google fa-xl"></i>
-          </li>
-          <li class="list-group-item">
-            <!-- Button trigger modal -->
-            <i class="fa-solid fa-user-lock fa-xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
-          </li>
-        </ul>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!--Aca pongo el formulario de login-->
-                <div class="mb-3 row">
-                  <label for="staticEmail" class="col-sm-2 col-form-label">Usuario</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="staticEmail">
-                  </div>
-                </div>
-                <div class="mb-3 row">
-                  <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword">
-                  </div>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <!-- Button trigger modal -->
+          <i class="fa-solid fa-user-lock fa-xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+        </li>
+      </ul>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!--Aca pongo el formulario de login-->
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Usuario</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail">
                 </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn-login">Iniciar sesion</button>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
               </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-login">Iniciar sesion</button>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <!--Hasta aca esta chequeado-->
+    </div>
+  </nav>
+  <!--Seccion Banner-->
   <section class="banner">
-    <img src="assets/img/banner.jpg" class="img-banner">
+    <img src="assets/img/banner.jpg" class="img-banner" alt="Banner Valentina Assef">
     <div class="titulo-banner text-white text-center">
-        <h1 class="banner-name">Valentina Assef</h1>
+        <h1 class="nombre-banner">Valentina Assef</h1>
         <h4>Desarrolladora Full Stack Jr.</h4>
     </div>
   </section>
-   
-<section  id="acerca-de-mi">
-  <div class="section"  id="about">
-    <div class="container">
-      <div class="card" data-aos="fade-up" data-aos-offset="10">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-10">
-            <h2>Acerca de mi</h2>
-            <p>Mi nombre es Valentina, tengo 33 años y vivo en la ciudad de La Plata, Argentina.
-            <br/>Soy Desarrolladora desde el 2021. Me apasiona la música, la fotografía y la astronomía</p>
-          </div>
+  <section class="presentacion mt-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3">
+          <img src="assets/img/perfil.jpg" class="rounded-circle w-75 img-fluid" alt="foto-perfil">
+        </div>
+        <div class="col-9 mt-5">
+          <h2>Acerca de mi</h2>
+          <p>Mi nombre es Valentina, tengo 33 años y vivo en la ciudad de La Plata, Argentina.
+          <br/>Soy Desarrolladora desde el 2021 y desde entonces he descubierto una pasión.</p>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
           
 <!---
   <section id="about-me" class="profile">
