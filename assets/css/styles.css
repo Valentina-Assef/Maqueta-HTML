@@ -73,6 +73,24 @@ li.list-group-item {
   font-size: 4rem;
 }
 
+.acerca-de-mi{
+  border-style: groove;
+  border-radius: 10px;
+  padding-top: 2%;
+}
+
+.img-educacion{
+  opacity:0.8;
+  filter:alpha(opacity=80);
+  height: 15vh;
+ }
+
+ 
+
+
+
+
+
 /*Hasta aca esta chequeado*/
 
 /*Seccion Proyectos*/
