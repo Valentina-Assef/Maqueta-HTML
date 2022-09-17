@@ -41,10 +41,20 @@ li.list-group-item {
   color: #fff;
 }
 
+.col-form-label{
+  background-color: rgb(26, 78, 121);
+  color: #fff;
+  border-radius: 10px;
+}
+
 .btn-login{
   background-color: rgb(26, 78, 121);
   color: #fff;
-  border: #fff;
+  padding: 0.5rem;
+  border-color: #fbfbfb;
+  border-style: groove;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
 }
 
 /*Seccion Banner*/
@@ -78,154 +88,153 @@ li.list-group-item {
   height: auto;
   margin-top: -7.5rem;
   margin-left: 10rem;
+  box-shadow: 0px 0px 5px 1px black;
 }
 
 .acerca-de-mi{
   border-style: groove;
   border-radius: 10px;
   padding-top: 1%;
-  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(20, 20, 20));
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+  box-shadow: 0px 0px 5px 1px black;
 }
 
  /*Secciones*/
  .col-sm-2{
-  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(20, 20, 20));
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
   border-style: groove;
   border-radius: 10px;
   padding-top: 3%;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
+  box-shadow: 0px 0px 5px 1px black;
  }
 
  .col-sm-6{
   border-style: groove;
   border-radius: 10px;
   padding-top: 1%;
-  padding-right: 5%;
   padding-bottom: 1%;
-  padding-left: 1%;
+  padding-right: 5%;
+  box-shadow: 0px 0px 5px 1px black;
  }
 
- /*Seccion Educación*/
-/*.img-educacion{
-  opacity:0.8;
-  filter:alpha(opacity=80);
-  height: 10vh;
-}*/
+/*Seccion Educación*/
+.educación{
+  margin-top: 6rem;
+}
+
+.cursos{
+  margin-top: 6rem;
+}
  
-
-
- /*Seccion Idiomas*/
-.col-3.idioma{
-  border-style: groove;
+/*Seccion Idiomas*/
+.idiomas{
+  margin-top: 6rem;
+}
+.card-idomas{
+  width: 18rem;
   border-radius: 10px;
   padding: 2%;
+  box-shadow: 0px 0px 5px 1px black;
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+  border-style: groove;
+}
+
+.text-idiomas{
+  color: #fbfbfb;
+}
+
+/*Seccion Skills*/
+.skills{
+  margin-top: 6rem;
 }
 
 .col-3.skills{
   border-style: groove;
   border-radius: 10px;
   padding: 2%;
+  box-shadow: 0px 0px 5px 1px black;
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+}
+
+/*Seccion Experiencia*/
+.experiencia-laboral{
+  margin-top: 6rem;
 }
 
 /*Seccion Proyectos*/
-.card {
+.proyectos{
+  margin-top: 6rem;
+}
+
+.card-proyectos{
     width: 18rem;
+    box-shadow: 0px 0px 5px 1px black;
 }
 
 .card-img-top{
   position: center;
 }
 
+.btn.btn-visita{
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+  color: #fbfbfb;
+  box-shadow: 0px 0px 5px 1px black;
+  border-style: groove;
+}
+
 /*Seccion formulario*/
-.contact_form{  
-    width: 460px; 
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;  
-    padding-top: 30px;
-    padding-bottom: 20px;  
-    background-color: #fbfbfb; 
-    padding-left: 30px; 
-    border-color: #e14658;
-  }
-  
-  input{
-    background-color: #fbfbfb; 
-    width: 408px; 
-    height: 40px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 1px; 
-    border-color: #e14658; 
-    margin-top: 10px;  
-    padding-left: 10px;
-    margin-bottom: 20px; 
-  }
-   
-  textarea{
-    background-color: #fbfbfb; 
-    width: 405px; 
-    height: 150px; 
-    border-radius: 5px;  
-    border-style: solid; 
-    border-width: 1px; 
-    border-color:#e14658; 
-    margin-top: 10px;  
-    padding-left: 10px;
-    margin-bottom: 20px; 
-    padding-top: 15px; 
-  }
-  
-  label{
-    display: block; 
-    float: center;  
-  }
-  
-  button{
-    height: 45px; 
-    padding-left: 5px;
-    padding-right: 5px;   
-    margin-bottom: 20px; 
-    margin-top: 10px;   
-    text-transform: uppercase;
-    background-color: #e14658; 
-    border-color: #e14658; 
-    border-style: solid; 
-    border-radius: 10px;  
-    width: 420px;   
-    cursor: pointer;
-  }
+form{
+  width: 450px;
+  margin: auto;
+  border-radius: 10px;  
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 8rem;
+  border-radius: 10px;
+  border-style: groove;
+  box-shadow: 0px 0px 5px 1px black;
+}
 
-  button p{
-    color: #fff; 
-  }
-  
-  span{
-    color:#0e0e0e 
-  }
-  
-  .aviso{
-    font-size: 13px;  
-    color: #0e0e0e;  
-  }
-  
-  ::-webkit-input-placeholder {
-   color: #e14658;
-  }
+.titulo-formulario{
+  background: linear-gradient(45deg,rgb(251, 255, 0),rgb(248, 115, 6),rgb(250, 36, 82));
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
 
-  ::-webkit-textarea-placeholder {
-   color: #e14658;
-  }
+.form-group{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 
-  .formulario input:focus{
-    outline:0;
-    border: 1px solid #e14658;
-  }
-  
-  .formulario textarea:focus{
-    outline:0;
-    border: 1px solid #e14658
-  }
-  
+.btn.btn-enviar{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-color: #fbfbfb;
+  border-style: groove;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+}
 
+/*.formulario{
+  width: 40rem; 
+  height: auto;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  padding-bottom: 1rem;
+}
 
+.bigicon {
+  font-size: 1.5rem;
+  color: #fbfbfb;
+}*/

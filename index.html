@@ -47,14 +47,14 @@
             <div class="modal-body">
               <!--Aca pongo el formulario de login-->
               <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Usuario</label>
-                <div class="col-sm-10">
+                <label for="staticEmail" class="col-sm-3 col-form-label text-center">Usuario</label>
+                <div class="col-sm-9">
                   <input type="text" class="form-control" id="staticEmail">
                 </div>
               </div>
               <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
-                <div class="col-sm-10">
+                <label for="inputPassword" class="col-sm-3 col-form-label text-center">Contraseña</label>
+                <div class="col-sm-9">
                   <input type="password" class="form-control" id="inputPassword">
                 </div>
               </div>
@@ -94,7 +94,7 @@
   </section>
 
   <!--Seccion Educación-->
-  <section class="educación mt-5">
+  <section class="educación">
     <div class="container">
       <h2>Educación</h2>
         <div class="row mt-4">
@@ -134,7 +134,7 @@
   </section>
 
   <!--Seccion Cursos-->
-  <section class="cursos mt-5">
+  <section class="cursos">
     <div class="container">
       <h2>Cursos</h2>
       <div class="row mt-4">
@@ -170,57 +170,68 @@
     </div>
   </section>
 
-   <!--Seccion Idiomas-->
-   <section class="idiomas mt-5">
-    <div class="container">
-      <h2>Idiomas</h2>
-      <div class="row row-idiomas text-center mt-5">
-        <div class="col-1"></div>
-        <div class="col-3 idioma">
-          <h5>Español</h5>
+  <!--Seccion Idiomas-->
+  <section class="idiomas">
+   <div class="container">
+     <h2>Idiomas</h2>
+     <div class="row mt-4 text-center">
+       <div class="col col-idiomas">
+         <div class="card card-idomas">
+          <h5 class="text-center text-idiomas">Español</h5>
+         <div class="card-body">
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <h6>Nivel: Nativo</h6>
+          <h6 class="text-center mt-3 text-idiomas">Nivel: Nativo</h6>
+         </div>
+         </div>
+       </div>
+       <div class="col">
+        <div class="card card-idomas">
+         <h5 class="text-center text-idiomas">Ingles</h5>
+        <div class="card-body">
+         <div class="progress">
+           <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6 class="text-center mt-3 text-idiomas">Nivel: Intermedio/Avanzado</h6>
         </div>
-        <div class="col-3 idioma">
-          <h5>Ingles</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <h6>Nivel: Intermedio Avanzado</h6>
-        </div>
-        <div class="col-3 idioma">
-          <h5>Frances</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <h6>Nivel: Principiante</h6>
         </div>
       </div>
-    </div>
+      <div class="col">
+        <div class="card card-idomas">
+         <h5 class="text-center text-idiomas">Frances</h5>
+        <div class="card-body">
+         <div class="progress">
+           <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6 class="text-center mt-3 text-idiomas">Nivel: Principiante</h6>
+        </div>
+        </div>
+      </div>
+     </div>
+   </div>
   </section>
 
   <!--Seccion Habilidades profesionales-->
-  <section class="skills mt-5">
+  <section class="skills">
     <div class="container container-skills">
       <h2>Habilidades profesionales</h2>
       <div class="row row-skills text-center mt-5">
         <div class="col-1"></div>
         <div class="col-3 skills">
-          <h5>HTML</h5>
+          <h5 class="text-white text-center">HTML</h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-3 skills">
-          <h5>CSS</h5>
+          <h5 class="text-white text-center">CSS</h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-3 skills">
-          <h5>JavaScript</h5>
+          <h5 class="text-white text-center">JavaScript</h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
@@ -229,19 +240,19 @@
       <div class="row row-idiomas text-center mt-5">
         <div class="col-1"></div>
         <div class="col-3 skills">
-          <h5>Bootstrap</h5>
+          <h5 class="text-white text-center">Bootstrap</h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-3 skills">
-          <h5>Angular</h5>
+          <h5 class="text-white text-center">Angular</h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="col-3 skills">
-          <h5>Git y Github</h5>
+          <h5 class="text-white text-center">Git y Github</h5>
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
@@ -251,7 +262,7 @@
   </section>
 
   <!--Seccion Experiencia Laboral-->
-  <section class="experiencia-laboral mt-5">
+  <section class="experiencia-laboral">
     <div class="container">
       <h2>Experiencia Laboral</h2>
       <div class="row mt-5">
@@ -291,37 +302,37 @@
   </section>
 
   <!--Seccion Proyectos-->
-  <section class="proyectos mt-5">
+  <section class="proyectos">
     <div class="container">
       <h2>Proyectos</h2>
       <div class="row mt-5 text-center">
         <div class="col">
-          <div class="card">
+          <div class="card card-proyectos">
             <img src="assets/img/Alma de Gaucho.jpg" class="card-img-top" alt="..." height="150px">
           <div class="card-body">
             <h5 class="card-title">Alma de Gaucho</h5>
             <p class="card-text">Empresa de venta de productos argentinos en Europa</p>
-            <a href="http://almadegaucho.eshost.com.ar" target="_blank" class="btn btn-primary">Visita la página</a>
+            <a href="http://almadegaucho.eshost.com.ar" target="_blank" class="btn btn-visita">Visita la página</a>
           </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card card-proyectos">
             <img src="assets/img/FLIA.png" class="card-img-top" alt="..." height="150px">
             <div class="card-body">
               <h5 class="card-title">FLIA La Plata</h5>
               <p class="card-text">Feria del Libro Independiente y Autogestiva</p>
-              <a href="https://www.facebook.com/people/FLIA-La-Plata/100063952156377/" target="_blank" class="btn btn-primary">Visita la página</a>
+              <a href="https://www.facebook.com/people/FLIA-La-Plata/100063952156377/" target="_blank" class="btn btn-visita">Visita la página</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card card-proyectos">
             <img src="assets/img/Portfolio.png" class="card-img-top" alt="..." height="150px">
           <div class="card-body">
             <h5 class="card-title">Portfolio</h5>
             <p class="card-text">Portfolio Full Stack Developer Junior</p>
-            <a href="#" target="_blank" class="btn btn-primary">Visita la página</a>
+            <a href="#" target="_blank" class="btn btn-visita">Visita la página</a>
           </div>
           </div>
         </div>
@@ -331,49 +342,59 @@
 
   <!--Seccion Formulario de contacto-->
   <section class="formulario mt-5">
-    <!--<div class="contact_form">
-        <div class="formulario">      
-        <h1 class="titulo">Formulario de contacto</h1>
-         <form action="submeter-formulario.php" method="post">       
-           <p>
-             <label for="nombre" class="colocar_nombre">Nombre
-               <span class="obligatorio">*</span>
-             </label>
-             <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-           </p>
-           <p>
-             <label for="email" class="colocar_email">Email
-               <span class="obligatorio">*</span>
-             </label>
-             <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-           </p>            
-           <p>
-             <label for="asunto" class="colocar_asunto">Asunto
-               <span class="obligatorio">*</span>
-             </label>
-               <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-           </p>    
-         
-           <p>
-             <label for="mensaje" class="colocar_mensaje">Mensaje
-               <span class="obligatorio">*</span>
-             </label>                     
-               <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-           </p>                    
-         
-           <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-           <p class="aviso">
-             <span class="obligatorio"> * </span>Los campos son obligatorios.
-           </p>                    
-         </form>
-        </div>
-      </div>-->
+    <form action="" class="mt-">
+      <h2 class="titulo-formulario">Contacto</h2>
+      <div class="form-group"><!--Capaz no es necesario-->
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <textarea name="mensaje" placeholder="Escriba su mensaje aqui"> </textarea>
+        <button type="submit" class="btn btn-enviar">Enviar</button>
+      </div>
+    </form>
   </section>
 
-  <!-- JavaScript Bundle with Popper -->
+  <!--<section class="formulario">
+    <div class="container container-formulario">
+      <div class="titulo-formulario">
+        <h2 class="text-center">Formulario de Contacto</h2>
+      </div>
+      <div class="row row-formulario mt-3">
+        <div class="form-group"> 
+          <span class="col-md-1 col-md-offset-1 text-center"><i class="fa fa-user bigicon"></i></span>
+          <div class="col-md-6">
+            <input id="fname" name="nombre" type="text" placeholder="Nombre" class="form-control">
+          </div>
+        </div>
+        <div class="form-group mt-3">
+         <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+            <div class="col-md-6">
+              <input id="lname" name="apellido" type="text" placeholder="Apellido" class="form-control">
+            </div>
+        </div>
+        <div class="form-group mt-3">
+          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+            <div class="col-md-6">
+              <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+            </div>
+        </div>
+        <div class="form-group mt-3">
+          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+            <div class="col-md-6">
+              <textarea class="form-control" id="message" name="message" placeholder="Escriba su mensaje aqui" rows="7"></textarea>
+            </div>
+        </div>
+        <div class="form-group mt-3">
+          <div class="col-md-12 text-center mt-3">
+              <button type="submit" class="btn btn-lg btn-enviar">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
-
 <footer>
   <div class="container text-center">
     <hr/>
