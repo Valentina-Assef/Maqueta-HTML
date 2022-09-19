@@ -17,10 +17,6 @@ li.list-group-item {
   border: none;
 }
 
-.li.list-group-item:hover{
-  color: #fff;
-}
-
 .fa-brands.fa-linkedin.fa-xl{
   color: #0e0e0e;
 }
@@ -35,6 +31,18 @@ li.list-group-item {
 
 .fa-brands.fa-github.fa-xl:hover{
   color: #fff;
+}
+
+.fa-regular.fa-envelope.fa-xl{
+  color: #0e0e0e;
+}
+
+.fa-regular.fa-envelope.fa-xl:hover{
+  color: #fff;
+}
+
+.fa-solid.fa-user-lock.fa-xl{
+  color: #0e0e0e;
 }
 
 .fa-solid.fa-user-lock.fa-xl:hover{
@@ -55,6 +63,10 @@ li.list-group-item {
   border-style: groove;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 1px black;
+}
+
+.btn-login:hover{
+  box-shadow: none;
 }
 
 /*Seccion Banner*/
@@ -81,22 +93,27 @@ li.list-group-item {
 
 /*Seccion Presentacion*/
 .rounded-circle.w-25{
-  width: 10rem !important;
+  width: 12rem !important;
   position: absolute;
   z-index: 1;
   background-color: #fbfbfb;
   height: auto;
-  margin-top: -7.5rem;
-  margin-left: 10rem;
+  margin-top: -9rem;
+  margin-left: 9rem;
   box-shadow: 0px 0px 5px 1px black;
 }
 
 .acerca-de-mi{
+  margin-top: 4%;
+  margin-left: 30%;
   border-style: groove;
   border-radius: 10px;
   padding-top: 1%;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
   box-shadow: 0px 0px 5px 1px black;
+  
 }
 
  /*Secciones*/
@@ -183,18 +200,19 @@ li.list-group-item {
   border-style: groove;
 }
 
-/*Seccion formulario*/
+/*Seccion Formulario*/
 form{
   width: 450px;
+  background-size: 100vw 100vh;
   margin: auto;
   border-radius: 10px;  
-  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80)); 
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 8rem;
-  border-radius: 10px;
   border-style: groove;
   box-shadow: 0px 0px 5px 1px black;
+  margin-bottom: 5rem;
 }
 
 .titulo-formulario{
@@ -206,15 +224,24 @@ form{
   text-align: center;
 }
 
-.form-group{
-  width: 100%;
-  margin-bottom: 20px;
+.imput-formulario{
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-left: 10%;
   padding: 7px;
-  box-sizing: border-box;
-  border-radius: 10px;
+}
+
+.textarea-formulario{
+  width: 80%;
+  margin-bottom: 1rem;
+  margin-left: 10%;
+  padding: 7px;
+  min-height: 100px;
 }
 
 .btn.btn-enviar{
+  width: 50%;
+  margin-left: 25%;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #fff;
@@ -225,16 +252,3 @@ form{
   box-shadow: 0px 0px 5px 1px black;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
 }
-
-/*.formulario{
-  width: 40rem; 
-  height: auto;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-  padding-bottom: 1rem;
-}
-
-.bigicon {
-  font-size: 1.5rem;
-  color: #fbfbfb;
-}*/
