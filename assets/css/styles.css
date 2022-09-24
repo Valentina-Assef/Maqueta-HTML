@@ -3,9 +3,8 @@
   padding: 0;
 }
 
-body{
-  background-image: url(/assets/img/fondo-body.jpg);
-  background-size: 100% 100%;
+section.dashboard{
+  margin-top: 3rem;
 }
 
 /*Seccion Navbar*/
@@ -138,7 +137,6 @@ li.list-group-item {
   padding-bottom: 1%;
   padding-right: 5%;
   box-shadow: 0px 0px 5px 1px black;
-  background-color:#fbfbfb;
  }
 
 /*Seccion Educación*/
@@ -258,23 +256,3 @@ form{
   box-shadow: 0px 0px 5px 1px black;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
 }
-
-
-/* <section class="presentacion mt-5">
-    <div class="img-perfil">
-    <img src="assets/img/perfil.jpg" class="rounded-circle w-25" alt="foto-perfil">
-    <!--<div class="container text-center">
-      <div class="row">
-        <div class="col-sm-3"></div>
-        
-        <div class="col-2"></div>
-      </div>
-    </div>-->
-  </div>
-  </section>
-  <div class="acerca-de-mi col-sm-7 text-white text-center">
-    <h3>Acerca de mi</h3>
-    <p>Mi nombre es Valentina, tengo 33 años y vivo en la ciudad de La Plata, Argentina.
-    <br/>En este momento soy estudiante de Desarrollo Full Stack.</p>
-  </div>
- */

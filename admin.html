@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Valentina Assef</title>
+    <title>Dashboard</title>
     <!-- CSS only -->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -15,6 +15,104 @@
 </head>
     
 <body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="container-fluid"> 
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/APLogo-20-20.png" alt="logo Argentina Programa" width="15%" class="arg-programa">
+          </a>
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <a href="https://www.linkedin.com/in/valentina-assef-87a528245/" target="_blank" title="Linkedin">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://github.com/Valentina-Assef" target="_blank" title="Github">
+                <i class="fa-brands fa-github fa-xl"></i>
+              </a>
+            </li>
+            <li class="list-group-item">
+             <a href="valenassef@gmail.com" target="_blank" title="Gmail">
+              <i class="fa-regular fa-envelope fa-xl"></i>
+             </a>
+            </li>
+            <li class="list-group-item">
+              <!-- Button trigger modal -->
+              <i class="fa-solid fa-user fa-xl" type="button"></i>
+            </li>
+          </ul>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--Aca pongo el formulario de login-->
+                  <div class="mb-3 row">
+                    <label for="staticEmail" class="col-sm-3 col-form-label text-center">Usuario</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="staticEmail">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-3 col-form-label text-center">Contraseña</label>
+                    <div class="col-sm-9">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn-login">Iniciar sesion</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div lass="container-fluid text-center">
+            <div class="row mt-10">
+                <!--Sidebar-->
+                <div class="col-2">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Datos Personales</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+                    </div>
+                </div>
+                <!--Body-->
+                <div class="col-9">
+                    <h4>Datos Personales</h4>
+                    <div class="mb-3">
+                        <label for="formFileSm" class="form-label dashboard">Foto perfil</label>
+                        <input class="form-control form-control-sm" id="formFileSm" type="text">
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                    <div class="mb-3">
+                      <label for="formFileSm" class="form-label dashboard">Foto perfil</label>
+                      <input class="form-control form-control-sm" id="formFileSm" type="text">
+                      <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                    <div class="col-1"></div>  
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    
+
+
     <!-- JavaScript Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
