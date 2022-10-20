@@ -3,8 +3,8 @@
   padding: 0;
 }
 
-section.dashboard{
-  margin-top: 3rem;
+section.panel{
+  margin-top: 9rem;
 }
 
 /*Seccion Navbar*/
@@ -255,4 +255,14 @@ form{
   border-radius: 10px;
   box-shadow: 0px 0px 5px 1px black;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+}
+
+.body-dashboard{
+  background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
+}
+
+.btn-panel{
+  border-style: groove;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 3px black;
 }
