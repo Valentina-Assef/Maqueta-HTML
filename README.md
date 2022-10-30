@@ -27,4 +27,5 @@ Seccion formulario.
 Dia 6:
 Dashboard para hacer la administracion de la página.
 Cree un archivo html llamado dashboard y copie todo el head del index.
-Luego cree 4 columnas para incluir solo la parte de perfil.
+Luego use el sistema de grilla de Bootstrap para los botones de edicion de cada una de las secciones.
+

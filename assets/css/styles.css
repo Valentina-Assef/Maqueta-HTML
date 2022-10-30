@@ -9,7 +9,7 @@ section.panel{
 
 /*Seccion Navbar*/
 .navbar{
-  background: linear-gradient(45deg,rgb(251, 255, 0),rgb(248, 115, 6),rgb(250, 36, 82));
+    background: linear-gradient(45deg,rgb(251, 255, 0),rgb(248, 115, 6),rgb(250, 36, 82));
 }
 
 .arg-programa{
@@ -93,6 +93,10 @@ li.list-group-item {
 .nombre-banner{
   font-family: 'Dancing Script', cursive;
   font-size: 4rem;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.616);
 }
 
 /*Seccion Presentacion*/
@@ -257,6 +261,7 @@ form{
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
 }
 
+/*Seccion Dashboard*/
 .body-dashboard{
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
 }
@@ -265,4 +270,22 @@ form{
   border-style: groove;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 3px black;
+}
+
+.btn-save{
+    background-color: rgb(26, 78, 121);
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-color: #fbfbfb;
+    border-style: groove;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px black;    
+}
+
+.btn-save:hover{
+  box-shadow: none;
+}
+
+.btn-cerrar{
+  padding: 0.5rem 2rem;
 }

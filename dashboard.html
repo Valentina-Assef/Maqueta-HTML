@@ -21,46 +21,29 @@
         <img src="assets/img/APLogo-20-20.png" alt="logo Argentina Programa" width="15%" class="arg-programa">
       </a>
       <ul class="list-group list-group-horizontal">
-        <li class="list-group-item">
-          <a href="https://www.linkedin.com/in/valentina-assef-87a528245/" target="_blank" title="Linkedin">
-            <i class="fa-brands fa-linkedin fa-xl"></i>
-          </a>
-        </li>
-        <li class="list-group-item">
-          <a href="https://github.com/Valentina-Assef" target="_blank" title="Github">
-            <i class="fa-brands fa-github fa-xl"></i>
-          </a>
-        </li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item"></li>
         <li class="list-group-item">
           <!-- Button trigger modal -->
           <i class="fa-solid fa-right-from-bracket fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
         </li>
       </ul>
-      <!-- Modal -->
+      <!--Modal Cerrar Sesion-->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Cerrar Sesión</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-              <!--Aca pongo el formulario de login-->
+            <div class="modal-body body-close">
               <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-3 col-form-label text-center">Usuario</label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="staticEmail">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                  <button type="button" class="btn-login btn-cerrar">Cerrar</button>
                 </div>
-              </div>
-              <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-3 col-form-label text-center">Contraseña</label>
-                <div class="col-sm-9">
-                  <input type="password" class="form-control" id="inputPassword">
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn-login">Iniciar sesion</button>
+                <div class="col-sm-4"></div>   
+              </div>   
             </div>
           </div>
         </div>
@@ -68,12 +51,13 @@
     </div>
   </nav> 
 
+  <!--Seccion Panel de Edición-->
   <section id="panel" class="panel mt-5 mb-5">
     <div class="container">
       <div class="row mt-4 text-center">
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#redesModal">
               <h3>Redes Sociales </h3>
               <i class="fa-brands fa-square-twitter fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -81,7 +65,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#bannerModal">
               <h3>Banner</h3>
               <i class="fa-regular fa-image fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -89,7 +73,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#presentacionModal">
               <h3>Presentación</h3>
               <i class="fa-solid fa-user fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -101,7 +85,7 @@
       <div class="row mt-4 text-center">
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#eduModal">
               <h3>Educación</h3>
               <i class="fa-solid fa-graduation-cap fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -109,7 +93,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#cursosModal">
               <h3>Cursos</h3>
               <i class="fa-solid fa-award fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -117,7 +101,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#idiomasModal">
               <h3>Idiomas</h3>
               <i class="fa-solid fa-language fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -129,7 +113,7 @@
       <div class="row mt-4 text-center">
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#skillModal">
               <h3>Skills</h3>
               <i class="fa-solid fa-dumbbell fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -137,7 +121,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#laboralModal">
               <h3>Experiencia Laboral</h3>
               <i class="fa-solid fa-briefcase fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -145,7 +129,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-lg p-5 btn-panel" data-bs-toggle="modal" data-bs-target="#proyectosModal">
               <h3>Proyectos</h3>
               <i class="fa-regular fa-folder-open fa-xl"></i> <i class="fa-solid fa-pencil"></i>
             </button>
@@ -155,37 +139,378 @@
     </div>
   </section>
     
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Modal Redes Sociales-->
+  <div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Redes Sociales</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <!--Aca pongo el formulario de login-->
+          <!--Formulario de edicion-->
           <div class="mb-3 row">
-            <label for="staticEmail" class="col-sm-3 col-form-label text-center">Usuario</label>
+            <label for="formFileSn" class="form-label">Icono</label>
             <div class="col-sm-9">
-              <input type="text" class="form-control" id="staticEmail">
+              <input class="form-control form-control-sm" id="formFileSn" type="file">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
             </div>
           </div>
           <div class="mb-3 row">
-            <label for="inputPassword" class="col-sm-3 col-form-label text-center">Contraseña</label>
+            <label for="formFileSn" class="form-label">Link</label>
             <div class="col-sm-9">
-              <input type="password" class="form-control" id="inputPassword">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
             </div>
           </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn-login">Iniciar sesion</button>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- Modal Banner-->
+  <div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Banner</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Imagen</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="file">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Nombre</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Titulo Personal</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Presentación-->
+  <div class="modal fade" id="presentacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Presentación</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Foto de perfil</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="file">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Acerca de</label>
+            <div class="col-sm-9">
+              <textarea class="form-control form-control-sm" id="formFileSn" type="textarea"></textarea>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Educación-->
+  <div class="modal fade" id="eduModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Educación</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Titulo</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Periodo</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Institución</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Localidad</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Cursos-->
+  <div class="modal fade" id="cursosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cursos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Titulo</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Periodo</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Institucion</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Idiomas-->
+  <div class="modal fade" id="idiomasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Idiomas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Idioma</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Nivel</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Porcentaje</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Skills-->
+  <div class="modal fade" id="skillModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Skills</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Habilidad</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Porcentaje</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Experiencia Laboral-->
+  <div class="modal fade" id="laboralModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Experiencia Laboral</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Logo empresa</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="file">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Puesto</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Periodo</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Descripción del puesto</label>
+            <div class="col-sm-9">
+              <textarea class="form-control form-control-sm" id="formFileSn" type="text"></textarea>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Proyectos-->
+  <div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Proyectos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--Formulario de edicion-->
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Foto</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="file">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Titulo</label>
+            <div class="col-sm-9">
+              <input class="form-control form-control-sm" id="formFileSn" type="text">
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="formFileSn" class="form-label">Descripción</label>
+            <div class="col-sm-9">
+              <textarea class="form-control form-control-sm" id="formFileSn" type="text"></textarea>
+            </div>
+            <div class="col-sm-3">
+              <button type="button" class="btn-save">Guardar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
+
