@@ -1,11 +1,12 @@
-#Front End
+# Portfolio Argentina Programa
+
+## Front End
 
 Dia 1: 
 Navbar de Bootstrap
 Al ponerle class navbar, pude ponerle, en la hoja css, un background color.
 Dentro de esta nav, Bootstrap pone un link con una imagen. En esta imagen coloque el logo de Argentina Programa.
-A continuacion se abre una lista desordenda
-con items de los logos de la redes sociales. 
+A continuacion se abre una lista desordenda con items de los logos de la redes sociales. 
 Al agregarle a la lista list-group-horizontal lo iconos se ordenan de manera horizontal.
 A cada item se le agrego la clase list-group-item por lo que en la hoja css se edito el color de fondo, el borde y el hover de cada logo.
 Se le agrego un boton de login con una ventana modal
