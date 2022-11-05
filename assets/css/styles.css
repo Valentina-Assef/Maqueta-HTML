@@ -53,6 +53,7 @@ li.list-group-item {
   color: #fff;
 }
 
+/*Ventana de Login*/
 .col-form-label{
   background-color: rgb(26, 78, 121);
   color: #fff;
@@ -148,6 +149,7 @@ body{
   margin-top: 5rem;
 }
 
+/*Seccion Cursos*/
 .cursos{
   margin-top: 6rem;
 }
