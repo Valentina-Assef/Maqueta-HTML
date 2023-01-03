@@ -106,10 +106,10 @@ li.list-group-item {
 }
 
  /*Secciones*/
- .col-sm-2 {
+ .col-sm-3.col-md-3.col-lg-2 {
   position: relative;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
-  padding: 2vh;
+  padding: 1vh;
   border-style: groove;
   border-radius: 10px;
   box-shadow: 0px 0px 5px 2px black;
@@ -165,7 +165,7 @@ li.list-group-item {
   border-radius: 10px;
   box-shadow: 0px 0px 5px 1px black;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
-  margin-left: 3%;
+  margin-left: 2%;
   text-decoration-color: white;
 }
 
@@ -178,23 +178,18 @@ li.list-group-item {
   background-image: linear-gradient(-54deg, rgb(255, 188, 4) 50%, transparent 50%, transparent), linear-gradient(270deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
 }
 
-.progress-circle.progress-5:after { 
-  background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(108deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
-}
 
+.progress-circle.progress-10:after {
+  background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(126deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
+}
 
 /*Progress Bar Idiomas y Skills*/
 
-.progress-circle-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .progress-circle { 
   position: relative;
-  margin: 1rem; 
-  width: 120px; 
+  margin: auto;
+  width: 120px;
   height: 120px; 
   border-radius: 50%; 
   background-color: #ebebeb;
@@ -245,6 +240,28 @@ color: #fff;
   background: linear-gradient(55deg,rgb(28, 119, 126),rgb(8, 59, 100),rgb(7, 47, 80));
   margin-left: 2%;
 }
+
+/*Progress Bar Skills*/
+.progress-circle.progress-70:after { 
+  background-image: linear-gradient(-18deg, rgb(255, 188, 4) 50%, transparent 50%, transparent), linear-gradient(270deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
+}
+
+.progress-circle.progress-55:after { 
+  background-image: linear-gradient(-72deg, rgb(255, 188, 4) 50%, transparent 50%, transparent), linear-gradient(270deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb);
+}
+
+.progress-circle.progress-20:after { 
+  background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(151.2deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
+}
+
+.progress-circle.progress-30:after { 
+  background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(198deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
+}
+
+.progress-circle.progress-45:after { 
+  background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(252deg, rgb(255, 188, 4) 50%, #ebebeb 50%, #ebebeb); 
+}
+
 
 /*Seccion Experiencia*/
 .experiencia-laboral{
