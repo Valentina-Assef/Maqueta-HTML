@@ -1,5 +1,7 @@
 # Portfolio Argentina Programa
 
+![](./assets/img/Portfolio.png)
+
 ## Front End
 
 Dia 1: 
