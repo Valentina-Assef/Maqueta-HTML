@@ -2,7 +2,6 @@
 
 ![](./assets/img/Portfolio.png)
 
-## Front End
 ### Maqueta estática
 
 Dia 1: 
