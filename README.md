@@ -1,8 +1,9 @@
-# Portfolio Argentina Programa
+# Portfolio Desarrolladora Full Stack Jr.
 
 ![](./assets/img/Portfolio.png)
 
 ## Front End
+### Maqueta estática
 
 Dia 1: 
 Navbar de Bootstrap
