@@ -2,6 +2,8 @@
 
 ![](./assets/img/Portfolio.png)
 
+### Visita la página en https://valentina-assef.github.io/Portfolio-FullStack/
+
 ### Maqueta estática
 
 Dia 1: 
